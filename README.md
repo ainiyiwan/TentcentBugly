@@ -48,4 +48,8 @@
 ![](https://github.com/ainiyiwan/TentcentBugly/blob/master/png/upload_patch.jpg)
 #### 下发的时候尽量选择全量设备，否则可能无效
 ![](https://github.com/ainiyiwan/TentcentBugly/blob/master/png/all_divce.jpg)
-
+### 第六步 打开App
+当你看到下面这个界面，说明patch下载成功
+![]()
+可以看到已经修复成功
+![]()
