@@ -24,3 +24,7 @@
 #### 第一步 双击assembleRelease,生成baseApk
 ![](https://github.com/ainiyiwan/TentcentBugly/blob/master/png/assemble_release.png)
 ![](https://github.com/ainiyiwan/TentcentBugly/blob/master/png/bakApk.jpg)
+
+**切记，一定要将bakApk中生成的文件保存，以备后用，最好上传到公司的服务器**
+#### 第二步 安装bakApk中app-release.apk到你的手机中，启动apk，上报联网数据
+![]()
