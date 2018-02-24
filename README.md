@@ -28,3 +28,8 @@
 **切记，一定要将bakApk中生成的文件保存，以备后用，最好上传到公司的服务器**
 #### 第二步 安装bakApk中app-release.apk到你的手机中，启动apk，上报联网数据
 <img src="https://github.com/ainiyiwan/TentcentBugly/blob/master/png/before.png" width = "300"/>
+
+#### 第三步 修改界面或者bug
+本项目中，我在上面展示的那个界面下面加一个图片
+#### 第四步 生成patch（最重要）
+##### 4.1
