@@ -42,3 +42,6 @@
 ### 4.2双击buildTinkerPatchRelease,生成patch
 ![](https://github.com/ainiyiwan/TentcentBugly/blob/master/png/buildTinkerPatchRelease.jpg)
 ![](https://github.com/ainiyiwan/TentcentBugly/blob/master/png/patch.jpg)
+
+### 第五步 上传patch到bugly
+
