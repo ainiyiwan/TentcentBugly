@@ -21,6 +21,5 @@
 
 **<font color=red>复制根目录下的build.gradle,app module下的build.gradle,tinker-support.gradle以及MyApplication到你的项目中</font>**
 ### 三 实战步骤
-#### 第一步 生成baseApk
-双击assembleRelease
+#### 第一步 双击assembleRelease,生成baseApk
 ![](https://github.com/ainiyiwan/TentcentBugly/blob/master/png/assemble_release.png)
