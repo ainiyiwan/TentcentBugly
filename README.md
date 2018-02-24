@@ -50,6 +50,12 @@
 ![](https://github.com/ainiyiwan/TentcentBugly/blob/master/png/all_divce.jpg)
 ### 第六步 打开App
 当你看到下面这个界面，说明patch下载成功
+
 <img src="https://github.com/ainiyiwan/TentcentBugly/blob/master/png/patch_download.png" width = "300"/>
+
 可以看到已经修复成功
+
 <img src="https://github.com/ainiyiwan/TentcentBugly/blob/master/png/success.png" width = "300"/>
+
+## 至此，Tinker已经接入成功，基本上是傻瓜式教学，如果你还是不成功，请给我提Issues
+### ![Github地址](https://github.com/ainiyiwan/TentcentBugly)
