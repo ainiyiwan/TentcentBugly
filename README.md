@@ -23,3 +23,4 @@
 ### 三 实战步骤
 #### 第一步 双击assembleRelease,生成baseApk
 ![](https://github.com/ainiyiwan/TentcentBugly/blob/master/png/assemble_release.png)
+![](https://github.com/ainiyiwan/TentcentBugly/blob/master/png/bakApk.jpg)
