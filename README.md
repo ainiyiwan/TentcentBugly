@@ -32,9 +32,9 @@
 #### 第三步 修改界面或者bug
 本项目中，我在上面展示的那个界面下面加一个图片
 #### 第四步 生成patch（最重要）
-##### 4.1修改think-support.gradle
+#### 4.1修改think-support.gradle
 ![](https://github.com/ainiyiwan/TentcentBugly/blob/master/png/copy_name.jpg)
 
-**复制上图中画红线的名称到下图中划红线的地方**
+### 复制上图中画红线的名称到下图中划红线的地方
 
 ![](https://github.com/ainiyiwan/TentcentBugly/blob/master/png/paste_name.jpg)
