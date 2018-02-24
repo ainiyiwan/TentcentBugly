@@ -15,7 +15,7 @@
 有人说有了官方文档还要你有何用，是的官方文档很详细，但是很多人还是接入不成功，所以这就是我写这篇文章的目的。
 
 ### 二 帮你接入
-因为接入Tinker需要multidex，所以这篇文章目的是所有人都会Tinker，所以请按照我的步骤。
+这篇文章目的是所有人都会Tinker，所以请按照我的步骤。
 #### 2.1复制粘贴
 复制粘贴会吧。
 
@@ -23,4 +23,4 @@
 ### 三 实战步骤
 #### 第一步 生成baseApk
 双击assembleRelease
-
+![](https://github.com/ainiyiwan/TentcentBugly/blob/master/png/assemble_release.png)
