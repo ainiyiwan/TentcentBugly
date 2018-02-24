@@ -40,3 +40,5 @@
 ![](https://github.com/ainiyiwan/TentcentBugly/blob/master/png/paste_name.jpg)
 
 ### 4.2双击buildTinkerPatchRelease,生成patch
+![](https://github.com/ainiyiwan/TentcentBugly/blob/master/png/buildTinkerPatchRelease.jpg)
+![](https://github.com/ainiyiwan/TentcentBugly/blob/master/png/patch.jpg)
