@@ -58,4 +58,4 @@
 <img src="https://github.com/ainiyiwan/TentcentBugly/blob/master/png/success.png" width = "300"/>
 
 ## 至此，Tinker已经接入成功，基本上是傻瓜式教学，如果你还是不成功，请给我提Issues
-### ![Github地址](https://github.com/ainiyiwan/TentcentBugly)
+### [Github地址](https://github.com/ainiyiwan/TentcentBugly)
