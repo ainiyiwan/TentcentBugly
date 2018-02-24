@@ -44,4 +44,8 @@
 ![](https://github.com/ainiyiwan/TentcentBugly/blob/master/png/patch.jpg)
 
 ### 第五步 上传patch到bugly
+#### 选择图中的apk上传
+![](https://github.com/ainiyiwan/TentcentBugly/blob/master/png/upload_patch.jpg)
+#### 下发的时候尽量选择全量设备，否则可能无效
+![](https://github.com/ainiyiwan/TentcentBugly/blob/master/png/all_divce.jpg)
 
