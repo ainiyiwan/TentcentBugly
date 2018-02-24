@@ -1,0 +1,70 @@
+apply plugin: 'com.android.application'
+//配置上传mapping到bugly
+apply plugin: 'bugly'
+
+bugly {
+    appId = "a4f84bdea5"
+    appKey = "b2ea7eb1-c44e-4bdd-b064-17d7c1c11932"
+}
+
+//读取签名信息
+// Create a variable called keystorePropertiesFile, and initialize it to your
+// keystore.properties file, in the rootProject folder.
+def keystorePropertiesFile = rootProject.file("keystore.properties")
+
+// Initialize a new Properties() object called keystoreProperties.
+def keystoreProperties = new Properties()
+
+// Load your keystore.properties file into the keystoreProperties object.
+keystoreProperties.load(new FileInputStream(keystorePropertiesFile))
+
+android {
+    signingConfigs {
+        release {
+            keyAlias keystoreProperties['keyAlias']
+            keyPassword keystoreProperties['keyPassword']
+            storeFile file(keystoreProperties['storeFile'])
+            storePassword keystoreProperties['storePassword']
+        }
+    }
+    compileSdkVersion 26
+    defaultConfig {
+        applicationId "soexample.umeng.com.tentcentbugly"
+        minSdkVersion 15
+        targetSdkVersion 26
+        versionCode 10
+        versionName "4.0.2"
+
+        // 开启multidex
+        multiDexEnabled true
+    }
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.release
+            zipAlignEnabled true
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation 'com.android.support:appcompat-v7:26.1.0'
+    //异常上报
+    //其中latest.release指代最新Bugly SDK版本号，也可以指定明确的版本号，例如2.2.0
+    //compile 'com.tencent.bugly:crashreport:latest.release'
+
+    //异常上报+应用升级
+    //注释掉原有bugly的仓库
+    //其中latest.release指代最新版本号，也可以指定明确的版本号，例如2.3.2
+    //compile 'com.tencent.bugly:crashreport:latest.release'
+    //其中latest.release指代最新版本号，也可以指定明确的版本号，例如1.2.0
+    compile 'com.tencent.bugly:crashreport_upgrade:latest.release'
+
+    // 多dex配置
+    compile "com.android.support:multidex:1.0.2"
+}
+
+// 依赖插件脚本
+apply from: 'tinker-support.gradle'
