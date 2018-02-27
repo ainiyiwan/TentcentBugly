@@ -1,5 +1,4 @@
 // Top-level build file where you can add configuration options common to all sub-projects/modules.
-
 buildscript {
     
     repositories {
@@ -12,8 +11,9 @@ buildscript {
         classpath 'com.tencent.bugly:symtabfileuploader:latest.release'
         //热修复
         classpath 'com.tencent.bugly:tinker-support:1.1.1'
-        // NOTE: Do not place your application dependencies here; they belong
-        // in the individual module build.gradle files
+        //微信资源文件混淆 由于技术原因限制 暂时不使用这个方案 以待后用
+//        classpath 'com.tencent.mm:AndResGuard-gradle-plugin:1.2.11'
+
     }
 }
 
