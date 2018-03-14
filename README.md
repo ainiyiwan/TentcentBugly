@@ -19,8 +19,6 @@
 ## 二 帮你接入
 这篇文章目的是所有人都会Tinker，所以请按照我的步骤。
 ### 2.1复制粘贴
-复制粘贴会吧。
-
 **<font color=red>复制根目录下的build.gradle,app module下的build.gradle,tinker-support.gradle以及MyApplication到你的项目中</font>**
 ## 三 实战步骤
 ### 第一步 双击assembleRelease,生成baseApk
